@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>This</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+ 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+	<script src="index.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+    		
+
+    	});
+    </script>
+</head>
+<body >
+	<div class="outer">
+		<!-- first page
+			로고만 출력
+						-->
+		<div id="First-Page" onclick="START_QUESTION()">
+			<img src="img/logo.png"></img>
+			<h1 id="start_btn">Start</h1>
+		</div>
+
+		<!--
+			메인 섹션
+					-->
+		<section class="section">
+			<!-- 문제 -->
+			<div>
+				<img src="img/q.png" width="100px"/>
+				<div id="foo1" class="question">.  오늘만큼은 채식주의자이고 싶습니까?</div>
+				<div id="foo2" class="question">.  밥 한 끼에 돈을 아낄 순 없지!</div>
+				<div id="foo3" class="question">.  역시 해산물보단 고기죠?</div>
+				<div id="foo4" class="question">.  피 뚝뚝 떨어지는 건 못 먹지...</div>
+				<div id="foo5" class="question">.  한국인은 밥 힘!</div>
+				<div id="foo6" class="question">.  야채를 선호하시는 편이십니까?</div>
+				<div id="foo7" class="question">.  오늘따라 면이 땡기는 걸</div>
+				<div id="foo8" class="question">.  가끔은 빵도 나쁘지 않지</div>
+				<div id="foo9" class="question">.  매운 것을 잘 먹고 즐기십니까?</div>
+				<div id="foo10" class="question">.  달달한 거 좋지~</div>
+			</div>	
+
+			<!-- 답 -->
+			<div class="dap">
+				<ul>
+					<li id="ans1" class="ans"><img src="img/y.png" width="200px"/><p>YES</p></li>
+					<li id="ans2" class="ans"><img src="img/n.png" width="200px"><p style="left: 60px">NO</p></li>
+				</ul>
+			</div>
+		</section>
+		<img src="img/22.jpg" id="food1" class="food" width="800px"></img><h1 id="STEAK">HAMBURGER</h1>
+	</div>
+</body>
+</html>

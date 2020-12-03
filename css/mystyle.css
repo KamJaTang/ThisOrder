@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+ 
+* {
+	font-family: 'Nanum Gothic';
+}
+.outer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+#First-Page {
+	z-index: 9998;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -125px 0 0 -400px;
+	background-color: #;
+	display: table-cell;
+  	vertical-align: middle;
+  	text-align: center;	
+  	cursor: pointer;
+
+  	font-size: 46pt;
+    letter-spacing: 20px;
+    color: #666;
+    font-weight: 800;
+}
+
+#start_btn {
+	display: none;
+}
+
+#foo {
+}
+#header > img {
+	padding: 10px;
+}
+
+.section {
+	z-index: 100;
+	opacity: 0;
+	width: 100%;
+    height: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -25%;
+}
+.section>div {
+	position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 80%;
+    margin-left: -35%;
+}
+
+#foo1 {
+	opacity: 1;
+}
+
+.question {
+	opacity: 0;
+	z-index: 9100;
+    position: absolute;
+    top: 30px;
+    font-size: 35pt;
+    left: 115px;
+}
+
+.ans {
+	cursor: pointer;
+	margin-left: 150px;
+	float: left;
+	position: relative;
+	top: 220px;
+}
+
+.dap {
+	width: 100%;
+	height: 10px;
+}
+
+li p {
+	font-size: 50pt;
+    position: relative;
+    left: 40px;
+    top: -120px;
+    opacity: 0.2;
+    font-weight: 800;
+}
+.food {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: -300px;
+}
+#STEAK {
+	opacity: 0;
+	z-index: 9998;
+    font-size: 140pt;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    margin-top: 171px;
+    color: #fff;
+}
